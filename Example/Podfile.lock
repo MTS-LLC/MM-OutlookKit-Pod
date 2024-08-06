@@ -1,0 +1,27 @@
+PODS:
+  - JMapiOSSDK (5.12.2)
+  - OutlookKit-iOS-Pod (1.1.0):
+    - JMapiOSSDK
+
+DEPENDENCIES:
+  - JMapiOSSDK (from `https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git`)
+  - OutlookKit-iOS-Pod (from `../`)
+
+EXTERNAL SOURCES:
+  JMapiOSSDK:
+    :git: https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git
+  OutlookKit-iOS-Pod:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  JMapiOSSDK:
+    :commit: 9df571bd49a6e2cb13ffd93820bb5ee20ab9055e
+    :git: https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git
+
+SPEC CHECKSUMS:
+  JMapiOSSDK: 8e784c4a2a3bf8021cbd2e7c6331874ffc452095
+  OutlookKit-iOS-Pod: 7c1ca9937ff909b4014c647b564f9752d81041f8
+
+PODFILE CHECKSUM: 8dd246a787801e8c867dbe2f6932af5f0abb340e
+
+COCOAPODS: 1.15.2

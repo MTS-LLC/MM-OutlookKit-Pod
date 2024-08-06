@@ -1,0 +1,9 @@
+use_frameworks!
+source 'https://github.com/MTS-LLC/JMap-iOS-SDK-Pod'
+
+target 'MicrosoftExchangeKit-iOS-Pod_Tests' do
+  pod 'JMapiOSSDK', :git => 'https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git'
+  pod 'OutlookKit-iOS-Pod', :path => '../'
+  
+  
+end

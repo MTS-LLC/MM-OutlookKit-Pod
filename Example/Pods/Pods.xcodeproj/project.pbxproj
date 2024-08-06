@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4213290940D1E890D53EB3E7BFDCB171 /* JMapiOSSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F6A116CC767895C686404B8BFFA62B4 /* Build configuration list for PBXAggregateTarget "JMapiOSSDK" */;
+			buildPhases = (
+				AE635D38A4D84CEDA5247ADAFB22273B /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = JMapiOSSDK;
+			productName = JMapiOSSDK;
+		};
+		7B78CD2DEC9EAC54F9A51BA9298AFC67 /* OutlookKit-iOS-Pod */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 08DB4842E5E84BD2591B36B7DD15EFF0 /* Build configuration list for PBXAggregateTarget "OutlookKit-iOS-Pod" */;
+			buildPhases = (
+				BD6A0BC82AA25AFDF784A1A1518A4E00 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				EEFF7AF5DC900CB7C38F90B1AAC1E6F7 /* PBXTargetDependency */,
+			);
+			name = "OutlookKit-iOS-Pod";
+			productName = "OutlookKit-iOS-Pod";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		822AF73BFC43676F4AF108B3231C138A /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CEDAAF1FAE16AD31DBAA1597CF533 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m */; };
+		CF34826D59C7C2CD455B621D12710096 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF21D84AAD73EFEB2BBEA28FEB0253B /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48ECA80901313401C3C683C14412453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C0D426F523FD9FFF7B3F9658CB7578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4213290940D1E890D53EB3E7BFDCB171;
+			remoteInfo = JMapiOSSDK;
+		};
+		8B6106F867D727EB51300EFE2E64AB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B78CD2DEC9EAC54F9A51BA9298AFC67;
+			remoteInfo = "OutlookKit-iOS-Pod";
+		};
+		CE17B00E8DF94FE262AE26B04861A6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4213290940D1E890D53EB3E7BFDCB171;
+			remoteInfo = JMapiOSSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0925FA518C6FBF09C639B49E7EF8EA0C /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		12D80BB90D5D637B8E789FFC4C2E6500 /* JMapRenderingKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = JMapRenderingKit.xcframework; path = JMapiOSSDK4.0/Frameworks/JMapRenderingKit.xcframework; sourceTree = "<group>"; };
+		198AF7B0C09D9092A8B888ED4B35BD40 /* JMapOutlookKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = JMapOutlookKit.xcframework; path = "OutlookKit-iOS-Pod/Frameworks/JMapOutlookKit.xcframework"; sourceTree = "<group>"; };
+		1B8CEDAAF1FAE16AD31DBAA1597CF533 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FECD4EAECDAEA61DCC9EF1EFB4BD08D /* JMapiOSSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMapiOSSDK.debug.xcconfig; sourceTree = "<group>"; };
+		207ABDDDD4CB53CD46197006C301391D /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap"; sourceTree = "<group>"; };
+		29929D25373A2D08087F3F6674D60673 /* OutlookKit-iOS-Pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OutlookKit-iOS-Pod.release.xcconfig"; sourceTree = "<group>"; };
+		301DF7F32C114BBD83C1BDA54B312DEA /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests"; path = Pods_MicrosoftExchangeKit_iOS_Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE219CDC62637015EC8EB25092C6660 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E617F714E795D01C7D417403D103EC4 /* JMapiOSSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMapiOSSDK.release.xcconfig; sourceTree = "<group>"; };
+		5C0E5626464B3BEC007BB4A94336618E /* OutlookKit-iOS-Pod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "OutlookKit-iOS-Pod.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732FCEDFD7CF8BAB26E0AD3ECDA21B10 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A47BCA64F4DB740DE0E43350C3E77E5 /* JMapControllerKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = JMapControllerKit.xcframework; path = JMapiOSSDK4.0/Frameworks/JMapControllerKit.xcframework; sourceTree = "<group>"; };
+		8C0547CE6692650271C9A8C198EAC9B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		954D494976F14D77A5EE9C5BF0F5A084 /* OutlookKit-iOS-Pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OutlookKit-iOS-Pod.debug.xcconfig"; sourceTree = "<group>"; };
+		984418B5DDAE74691C755C11BA822224 /* JMapiOSSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JMapiOSSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC55DC8E8E75CE4FAF0FB7B04EF4EF90 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B90DC11A521B0FB4EA3EDB2AC2703F22 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-Info.plist"; sourceTree = "<group>"; };
+		C3BACFF1F0C14A6283458FC987FB535D /* JMapCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = JMapCoreKit.xcframework; path = JMapiOSSDK4.0/Frameworks/JMapCoreKit.xcframework; sourceTree = "<group>"; };
+		C5FE212CF8822D0DD7A40EF98F752F90 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF21D84AAD73EFEB2BBEA28FEB0253B /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D9A38E61EAE6782ECE55511A1813A4BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1837BB83C9DCB36DCC6E6528DFB6A7E /* OutlookKit-iOS-Pod-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OutlookKit-iOS-Pod-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B841A22D4941CFC8772286CA78CC162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48ECA80901313401C3C683C14412453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098AE5294509A262BB9A87FA29BF189E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A47BCA64F4DB740DE0E43350C3E77E5 /* JMapControllerKit.xcframework */,
+				C3BACFF1F0C14A6283458FC987FB535D /* JMapCoreKit.xcframework */,
+				12D80BB90D5D637B8E789FFC4C2E6500 /* JMapRenderingKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9AB41B9853C2A0D1CCD1CC3C7A96F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1837BB83C9DCB36DCC6E6528DFB6A7E /* OutlookKit-iOS-Pod-xcframeworks.sh */,
+				954D494976F14D77A5EE9C5BF0F5A084 /* OutlookKit-iOS-Pod.debug.xcconfig */,
+				29929D25373A2D08087F3F6674D60673 /* OutlookKit-iOS-Pod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OutlookKit-iOS-Pod";
+			sourceTree = "<group>";
+		};
+		12E2DBBF9F25E71E60191F11F01EA863 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81983E482842ABA4AA3970FAC70922B5 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1364774D0BF411E62D84643A585FE693 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				656FD6E7FAAEAABE3C6314AF914227DA /* OutlookKit-iOS-Pod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1F597B08A0CB01327F3FD77788AED148 /* JMapiOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				098AE5294509A262BB9A87FA29BF189E /* Frameworks */,
+				A679D230A62361DD9C9EAFCFA756042C /* Support Files */,
+			);
+			path = JMapiOSSDK;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		656FD6E7FAAEAABE3C6314AF914227DA /* OutlookKit-iOS-Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6844A42BA1BC0D737A74ABEAC633F20B /* Frameworks */,
+				66F4430BFDAE420D3FD39E56E8307858 /* Pod */,
+				0A9AB41B9853C2A0D1CCD1CC3C7A96F1 /* Support Files */,
+			);
+			name = "OutlookKit-iOS-Pod";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		66F4430BFDAE420D3FD39E56E8307858 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C0547CE6692650271C9A8C198EAC9B7 /* LICENSE */,
+				5C0E5626464B3BEC007BB4A94336618E /* OutlookKit-iOS-Pod.podspec */,
+				D9A38E61EAE6782ECE55511A1813A4BA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6844A42BA1BC0D737A74ABEAC633F20B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198AF7B0C09D9092A8B888ED4B35BD40 /* JMapOutlookKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81983E482842ABA4AA3970FAC70922B5 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				207ABDDDD4CB53CD46197006C301391D /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap */,
+				AC55DC8E8E75CE4FAF0FB7B04EF4EF90 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.markdown */,
+				3DE219CDC62637015EC8EB25092C6660 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.plist */,
+				1B8CEDAAF1FAE16AD31DBAA1597CF533 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m */,
+				732FCEDFD7CF8BAB26E0AD3ECDA21B10 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-frameworks.sh */,
+				B90DC11A521B0FB4EA3EDB2AC2703F22 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-Info.plist */,
+				CCF21D84AAD73EFEB2BBEA28FEB0253B /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h */,
+				C5FE212CF8822D0DD7A40EF98F752F90 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.debug.xcconfig */,
+				0925FA518C6FBF09C639B49E7EF8EA0C /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.release.xcconfig */,
+			);
+			name = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests";
+			path = "Target Support Files/Pods-MicrosoftExchangeKit-iOS-Pod_Tests";
+			sourceTree = "<group>";
+		};
+		A679D230A62361DD9C9EAFCFA756042C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				984418B5DDAE74691C755C11BA822224 /* JMapiOSSDK-xcframeworks.sh */,
+				1FECD4EAECDAEA61DCC9EF1EFB4BD08D /* JMapiOSSDK.debug.xcconfig */,
+				3E617F714E795D01C7D417403D103EC4 /* JMapiOSSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JMapiOSSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1364774D0BF411E62D84643A585FE693 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EB14B42562324643436BF28B83E563BE /* Pods */,
+				F94F5D9FF4A9AAD032BA496A6F6AD3CD /* Products */,
+				12E2DBBF9F25E71E60191F11F01EA863 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB14B42562324643436BF28B83E563BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F597B08A0CB01327F3FD77788AED148 /* JMapiOSSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F94F5D9FF4A9AAD032BA496A6F6AD3CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301DF7F32C114BBD83C1BDA54B312DEA /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49F97AAE9C464A564B4C97369165AE64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34826D59C7C2CD455B621D12710096 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96CE514A8B62E65A573B94163D2111BF /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648417944917A1681D7F7718ACBB6B08 /* Build configuration list for PBXNativeTarget "Pods-MicrosoftExchangeKit-iOS-Pod_Tests" */;
+			buildPhases = (
+				49F97AAE9C464A564B4C97369165AE64 /* Headers */,
+				39F1DEB87DF6EFC3B811F4D134B00B91 /* Sources */,
+				8B841A22D4941CFC8772286CA78CC162 /* Frameworks */,
+				0F30B47AF273039BB2D47D6BCD161D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FFD970E139E5C9BB5D31AD0A4A03AF7 /* PBXTargetDependency */,
+				E3ED457C05B5974DCBFF86B4A77F08D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests";
+			productName = Pods_MicrosoftExchangeKit_iOS_Pod_Tests;
+			productReference = 301DF7F32C114BBD83C1BDA54B312DEA /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F94F5D9FF4A9AAD032BA496A6F6AD3CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4213290940D1E890D53EB3E7BFDCB171 /* JMapiOSSDK */,
+				7B78CD2DEC9EAC54F9A51BA9298AFC67 /* OutlookKit-iOS-Pod */,
+				96CE514A8B62E65A573B94163D2111BF /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F30B47AF273039BB2D47D6BCD161D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE635D38A4D84CEDA5247ADAFB22273B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/JMapiOSSDK/JMapiOSSDK-xcframeworks.sh",
+				"${PODS_ROOT}/JMapiOSSDK/JMapiOSSDK4.0/Frameworks/JMapControllerKit.xcframework",
+				"${PODS_ROOT}/JMapiOSSDK/JMapiOSSDK4.0/Frameworks/JMapCoreKit.xcframework",
+				"${PODS_ROOT}/JMapiOSSDK/JMapiOSSDK4.0/Frameworks/JMapRenderingKit.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JMapiOSSDK/JMapControllerKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JMapiOSSDK/JMapCoreKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JMapiOSSDK/JMapRenderingKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/JMapiOSSDK/JMapiOSSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6A0BC82AA25AFDF784A1A1518A4E00 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OutlookKit-iOS-Pod/OutlookKit-iOS-Pod-xcframeworks.sh",
+				"${PODS_ROOT}/../../OutlookKit-iOS-Pod/Frameworks/JMapOutlookKit.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OutlookKit-iOS-Pod/JMapOutlookKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OutlookKit-iOS-Pod/OutlookKit-iOS-Pod-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F1DEB87DF6EFC3B811F4D134B00B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822AF73BFC43676F4AF108B3231C138A /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FFD970E139E5C9BB5D31AD0A4A03AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMapiOSSDK;
+			target = 4213290940D1E890D53EB3E7BFDCB171 /* JMapiOSSDK */;
+			targetProxy = 10C0D426F523FD9FFF7B3F9658CB7578 /* PBXContainerItemProxy */;
+		};
+		E3ED457C05B5974DCBFF86B4A77F08D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OutlookKit-iOS-Pod";
+			target = 7B78CD2DEC9EAC54F9A51BA9298AFC67 /* OutlookKit-iOS-Pod */;
+			targetProxy = 8B6106F867D727EB51300EFE2E64AB15 /* PBXContainerItemProxy */;
+		};
+		EEFF7AF5DC900CB7C38F90B1AAC1E6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMapiOSSDK;
+			target = 4213290940D1E890D53EB3E7BFDCB171 /* JMapiOSSDK */;
+			targetProxy = CE17B00E8DF94FE262AE26B04861A6C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		285498D92C53195ED69FEA61056A273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954D494976F14D77A5EE9C5BF0F5A084 /* OutlookKit-iOS-Pod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D85A069D6FCB650E073D7ADBE5A585D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0925FA518C6FBF09C639B49E7EF8EA0C /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MicrosoftExchangeKit-iOS-Pod_Tests/Pods-MicrosoftExchangeKit-iOS-Pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MicrosoftExchangeKit-iOS-Pod_Tests/Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87A7AA869FB0446346499ECCE0C1F0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FE212CF8822D0DD7A40EF98F752F90 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MicrosoftExchangeKit-iOS-Pod_Tests/Pods-MicrosoftExchangeKit-iOS-Pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MicrosoftExchangeKit-iOS-Pod_Tests/Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE5B33F202522968FF15CE2F9945C369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29929D25373A2D08087F3F6674D60673 /* OutlookKit-iOS-Pod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D342F1A862A75B21BDDD7CA40EFDA252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FECD4EAECDAEA61DCC9EF1EFB4BD08D /* JMapiOSSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7EA9A43628ADE2994DA6DA64E2FEAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E617F714E795D01C7D417403D103EC4 /* JMapiOSSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DB4842E5E84BD2591B36B7DD15EFF0 /* Build configuration list for PBXAggregateTarget "OutlookKit-iOS-Pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285498D92C53195ED69FEA61056A273A /* Debug */,
+				CE5B33F202522968FF15CE2F9945C369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6A116CC767895C686404B8BFFA62B4 /* Build configuration list for PBXAggregateTarget "JMapiOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D342F1A862A75B21BDDD7CA40EFDA252 /* Debug */,
+				F7EA9A43628ADE2994DA6DA64E2FEAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648417944917A1681D7F7718ACBB6B08 /* Build configuration list for PBXNativeTarget "Pods-MicrosoftExchangeKit-iOS-Pod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A7AA869FB0446346499ECCE0C1F0A5 /* Debug */,
+				7D85A069D6FCB650E073D7ADBE5A585D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

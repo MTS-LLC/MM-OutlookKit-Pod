@@ -1,0 +1,6 @@
+framework module JMapOutlookKit {
+  umbrella header "JMapOutlookKit.h"
+
+  export *
+  module * { export * }
+}

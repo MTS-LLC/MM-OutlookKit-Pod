@@ -1,0 +1,6 @@
+framework module Pods_MicrosoftExchangeKit_iOS_Pod_Tests {
+  umbrella header "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
